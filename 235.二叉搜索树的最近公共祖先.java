@@ -17,7 +17,8 @@
 
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        
+        if(isIn(root.val, p.val, q.val)) return root;
+        if(root.val>)
         
     }
     boolean isIn(int root, int p, int q){
